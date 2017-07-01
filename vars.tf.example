@@ -1,0 +1,46 @@
+# variable "access_key" {
+#     default = ""
+# }
+
+# variable "secret_key" {
+#    default = ""
+# }
+
+
+# variable "region" {
+#    default = "us-east-2"
+# }
+
+# provider "aws"{
+#    access_key = "${var.access_key}"
+#    secret_key = "${var.secret_key}"
+#    region = "${var.region}"
+# }
+
+# variable "PATH_TO_PRIVATE_KEY" {
+# default = "mykey"
+# }
+
+# variable "PATH_TO_PUBLIC_KEY" {
+#  default = "mykey.pub"
+# }
+
+# variable "AMIS" {
+#  default = {
+#    us-east-2 = "ami-8b92b4ee"
+#  }
+# }
+
+
+# You need to go to AWS GUI, make an internal zone in Route 53.
+# And insert that zone ID here:
+
+# variable "route53_zone_id" {
+#  default = "Z1TK4Z1YIXBLKR"
+# }
+
+
+# variable "elb_cname" {
+#       default = "test.test.com"
+# }
+
